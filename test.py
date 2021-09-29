@@ -1,5 +1,6 @@
 import os
 import copy
+import sys
 
 spath = r"C:\Users\Arnab\Desktop\JAVASCRIPT"
 for roots, dirs, files in os.walk(spath, topdown = True):
@@ -16,3 +17,4 @@ for roots, dirs, files in os.walk(spath, topdown = True):
         print(os.path.join(roots,file))
         '''
 print(os.environ['KIERMANFS'])
+print(sys.argv)
