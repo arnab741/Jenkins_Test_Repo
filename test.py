@@ -9,7 +9,7 @@ for roots, dirs, files in os.walk(spath, topdown = True):
     if origLen != len(dirs):
         print('HeHe\n')
     print(roots, dirs, files)
-    print('******************')
+    print('**************')
     '''
     if roots[len(spath):].count(os.sep) >= 2:
         dirs.clear()
